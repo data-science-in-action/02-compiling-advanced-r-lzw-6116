@@ -5,6 +5,10 @@ date: "2020/3/19"
 output: pdf_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ##Open the file "adv-r.Rproj".
 
 1.The packages "rmarkdown" and "bookdown" are not installed.
@@ -49,7 +53,21 @@ Error: `ggbeeswarm` must be installed to use `type = "beeswarm"` option.
   
 Install packages "ggbeeswarm" and "beeswarm".
 
-8.
+
+8.LaTeX failed to compile _main.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips.
+
+Use MikTex instead of TinyTex.
+
+
+9.Error:Fonts inconsola and Andale Mono not found
+
+ Install font "inconsola" and "Andale Mono".then put it in C:\Windows\Fonts.
+
+
+10.Error: File `xeCJK.sty' not found
+
+ Install the package in MikTex console.
+
 
  
  
